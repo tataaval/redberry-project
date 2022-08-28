@@ -1,0 +1,14 @@
+.Logo {
+	text-align: center;
+	margin: 70px 0 85px;
+}
+.FeaturedImg {
+	text-align: center;
+	height: 480px;
+	margin-bottom: 120px;
+	img {
+		height: 100%;
+		width: 100%;
+		object-fit: contain;
+	}
+}

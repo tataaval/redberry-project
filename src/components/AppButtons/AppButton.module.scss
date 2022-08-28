@@ -1,0 +1,24 @@
+.Button {
+	display: flex;
+	justify-content: center;
+	a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 60px;
+		width: 387px;
+		margin-bottom: 20px;
+		background-color: var(--color-blue--light);
+		color: var(--color-white);
+		font-size: 20px;
+		font-weight: 500;
+		border-radius: 8px;
+		text-decoration: none;
+		&:hover {
+			background-color: var(--color-blue--tint);
+		}
+		&:focus {
+			background-color: var(--color-blue);
+		}
+	}
+}
